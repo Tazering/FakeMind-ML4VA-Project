@@ -1,4 +1,6 @@
-# Import Meteostat library and dependencies
+
+
+    # Import Meteostat library and dependencies
 from datetime import datetime
 import matplotlib.pyplot as plt
 from meteostat import Point, Daily, Stations
