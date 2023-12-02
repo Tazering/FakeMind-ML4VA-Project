@@ -6,6 +6,8 @@ weather_df = pd.read_csv("datasets/weather.csv")
 # Convert 'time' to datetime, then to date (string format)
 weather_df['time'] = pd.to_datetime(weather_df['time'], format='%Y-%m-%d').dt.strftime('%Y-%m-%d')
 
+weather_df = weather_df.drop('wpgt', axis=1)
+
 # Load the drought data
 drought_df = pd.read_csv(r"datasets\USA_Drought_Intensity_2000_-_Present.csv")
 
