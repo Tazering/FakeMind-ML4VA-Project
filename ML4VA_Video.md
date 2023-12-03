@@ -34,6 +34,10 @@
     - features
     - outputs
 
+-----------------------
+    - Tyler: ~30s on the graphs and preprocessing
+    - Alex: ~30s merging meteostate with drought data
+
 3. **Methodology and Results**
     - RNN
       - training accuracy
@@ -48,9 +52,24 @@
       - training accuracy
       - validation accuracy
 
-4. **Future Work and Conclusion**
+-----------------------
+    - Alex: ~RNN (w/ LSTM) and Logistic Regression (~ 1 - 2 min)
+    - Kamil: Results (~ 1 min)
+
+1. **Future Work and Conclusion**
     - deployment
     - projected consequence
       - how this will help farmers
       - other things that could be done
     - Credits
+
+------------------------
+    - Tyler ~ 30s 
+      - mobile application for farmers and possibly (nature conservationists)
+      - Consequences
+        - farmers are more prepared for droughts
+        - more prepared for forest fires
+      - Additional Works
+        - other models to try: ANN and SVM (non linear kernels)
+
+
